@@ -53,19 +53,19 @@
 # посчитать сколько лет и месяцев это будет
 # И вывести красиво:
 
-user_name = input("Введите своё имя: ")
-user_salary = int(input("Введите свою месячную зарплату: "))
-percent = int(input("Введите кол-во процентов накоплений: "))
+# user_name = input("Введите своё имя: ")
+# user_salary = int(input("Введите свою месячную зарплату: "))
+# percent = int(input("Введите кол-во процентов накоплений: "))
 
-while percent < 0 or percent > 100:
-    print("Ошибка, процент должен быть указан от 1 до 100")
-    percent = int(input("Введите кол-во процентов накоплений снова: "))
+# while percent < 0 or percent > 100:
+#     print("Ошибка, процент должен быть указан от 1 до 100")
+#     percent = int(input("Введите кол-во процентов накоплений снова: "))
     
-goal = int(input("Введите вашу финансовую цель: "))
-months_save = user_salary * percent / 100
-months_goal = goal / months_save
-years = int(months_goal // 12)
-remaining_month = round(months_goal % 12)
+# goal = int(input("Введите вашу финансовую цель: "))
+# months_save = user_salary * percent / 100
+# months_goal = goal / months_save
+# years = int(months_goal // 12)
+# remaining_month = round(months_goal % 12)
 
-print(f"{user_name}, здраствуйте! При накоплениях {percent}%. Вы откладываете {months_save} в месяц.")
-print(f"Вам понадобится примерно {int(months_goal)} месяц(ев)")
+# print(f"{user_name}, здраствуйте! При накоплениях {percent}%. Вы откладываете {months_save} в месяц.")
+# print(f"Вам понадобится примерно {int(months_goal)} месяц(ев)")
