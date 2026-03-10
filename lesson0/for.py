@@ -70,7 +70,44 @@
 #     elif i % 2 == 1:
 #         print(f"{i} Нечетное число")
 
-total = 0
+# total = 0
+# for i in range(1, 11):
+#     total = total + i
+#     print(total)
+
+
+#COUNTER!!!!!!!!!! 10.03
+
+counter = 0
 for i in range(1, 11):
-    total = total + i
-    print(total)
+    if i % 2 == 0:
+        counter = counter + 1
+print(counter)
+
+counter = 0
+for i in range(1, 21):
+    if i % 2 == 1:
+        counter += 1
+print(f"Total: {counter}")
+
+
+counter = 0
+for i in range(1, 21):
+
+    if i % 2 == 1:
+        print(i)
+        counter += 1
+print(f"Total: {counter}")
+
+
+numbers = [3, 7, 12, 5, 9]
+
+for n in numbers:
+    print(n)
+
+
+
+numbers = [2, 4, 5, 7, 12, 13, 17, 14, 22]
+for n in numbers:
+    if n % 2 == 0:
+        print(n)
