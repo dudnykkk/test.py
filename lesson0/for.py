@@ -78,36 +78,94 @@
 
 #COUNTER!!!!!!!!!! 10.03
 
-counter = 0
-for i in range(1, 11):
-    if i % 2 == 0:
-        counter = counter + 1
-print(counter)
+# counter = 0
+# for i in range(1, 11):
+#     if i % 2 == 0:
+#         counter = counter + 1
+# print(counter)
 
-counter = 0
-for i in range(1, 21):
-    if i % 2 == 1:
-        counter += 1
-print(f"Total: {counter}")
-
-
-counter = 0
-for i in range(1, 21):
-
-    if i % 2 == 1:
-        print(i)
-        counter += 1
-print(f"Total: {counter}")
+# counter = 0
+# for i in range(1, 21):
+#     if i % 2 == 1:
+#         counter += 1
+# print(f"Total: {counter}")
 
 
-numbers = [3, 7, 12, 5, 9]
+# counter = 0
+# for i in range(1, 21):
 
-for n in numbers:
-    print(n)
+#     if i % 2 == 1:
+#         print(i)
+#         counter += 1
+# print(f"Total: {counter}")
+
+
+# numbers = [3, 7, 12, 5, 9]
+
+# for n in numbers:
+#     print(n)
 
 
 
-numbers = [2, 4, 5, 7, 12, 13, 17, 14, 22]
-for n in numbers:
-    if n % 2 == 0:
-        print(n)
+# numbers = [2, 4, 5, 7, 12, 13, 17, 14, 22]
+# for n in numbers:
+#     if n % 2 == 0:
+#         print(n)
+
+
+# numbers = [1, 2, 3, 4, 5]
+
+# for n in numbers:
+#         print(n * 2)
+
+
+# numbers = [1, 2, 3, 4, 5]
+# for n in numbers:
+#     if n > 3:
+#           print(n)
+
+
+
+# total = 0
+# numbers = [1, 2, 3, 4, 5]
+# for n in numbers:
+#     total = total + n
+
+# print(total)
+
+# average = 0
+# total = 0
+# salaries = [1000, 1200, 1500, 2000, 800]
+
+# for i in salaries:
+#     total = total + i
+# print(f"Total: {total}")
+
+# for i in salaries:  
+#     if i >= 1200:
+#         print(i)
+
+# average = total / len(salaries)
+# print(f"Average: {average}")
+
+# salary = int(input("Enter salary: "))
+
+# if salary >= 1500:
+#     print("Хорошая зарплата")
+# elif salary >= 1000 and salary <= 1500:
+#     print("Достаточная зарплата")
+# else:
+#     print("Недостаточно денег для покрытия базовых потребностей")
+
+count = int(input("How many: "))
+average = 0
+total = 0
+
+for i in range(count):
+    s = int(input("Enter salary: "))
+    total = total + s
+
+average = total / count
+print(f"Total: {total}")
+print(f"Average: {average}")
+
